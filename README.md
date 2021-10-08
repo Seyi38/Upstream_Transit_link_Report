@@ -1,2 +1,2 @@
 # Upstream_Transit_link_Report
-This code gets network data from an API endpoint and stores in a dataframe. The data contains the autonomous system numbers of different organisation and is compared against a dataset of upstream transit link generated at the end points of an ISP. This ASN is used to get the corresponding organisation name for each ASN
+This code gets network data from an API endpoint and stores in a dataframe. This data contains the autonomous system numbers of different organisations. The code compares the ASN against a dataset of upstream transit link generated at the end points of an ISP. This ASN is used to extract the corresponding organisation name for each ASN from the downloaded data into the upstream link data and exported for reporting.
