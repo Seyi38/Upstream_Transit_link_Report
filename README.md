@@ -84,9 +84,4 @@ The task is to get network data from an API endpoint and store it in a dataframe
 6. We iterate over the csv files in the path and performed the following for each iteration:
   a. Corresponding organisation name for each ASN number is gotten using the map function and stored in a         new column
   b. Replaced "0" with the name of the ISP
-  c. Export to excel and add '_Export' to the imported file name as the name of the exported files
-	
-
-
-## CONCLUSION
-Each
+  c.  Add '_Export' to the imported file name as the name of the exported files and export to excel.
